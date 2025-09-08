@@ -19,8 +19,8 @@ mongoose
   .catch((err) => console.error(err));
 
 // Routes
-const profileRoutes = require("./routes/profileRoutes");
-app.use("/api/profile", profileRoutes);
+const profileRoutes = require("./routes/ProfileRoutes");
+app.use("/api/profile", ProfileRoutes);
 
 // ✅ Serve Vite frontend (dist folder)
 app.use(express.static(path.join(__dirname, "dist")));
