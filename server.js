@@ -20,7 +20,7 @@ mongoose
 
 // Routes
 const profileRoutes = require("./routes/ProfileRoutes");
-app.use("/api/profile", ProfileRoutes);
+app.use("/api/profile", profileRoutes);
 
 // ✅ Serve Vite frontend (dist folder)
 app.use(express.static(path.join(__dirname, "dist")));
