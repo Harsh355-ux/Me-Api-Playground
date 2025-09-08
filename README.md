@@ -24,7 +24,7 @@ Supports Create, Read, Update, Delete (CRUD) operations.
 
 ### 1. Clone repo
 ```bash
-git clone https://github.com/yourusername/profile-app.git
+git clone(https://github.com/Harsh355-ux/Me-Api-Playground/tree/master)
 cd profile-app
 //**backend setup**//
 cd backend
